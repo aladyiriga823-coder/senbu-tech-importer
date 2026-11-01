@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Senbu Tech Importer - construction materials, welding machines, machinery, safety products and plumbing equipment in Addis Ababa." />
+  <title>Senbu Tech Importer | Construction & Machinery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Senbu Tech Importer home">
+        <span class="brand-mark">S⚡</span>
+        <span><strong>SENBU</strong><small>TECH IMPORTER</small></span>
+      </a>
+      <button class="menu-btn" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">TRUSTED TOOLS • MACHINERY • INDUSTRIAL SUPPLIES</div>
+        <h1>Powering your work with the right equipment.</h1>
+        <p>Senbu Tech Importer supplies construction materials, welding machines, machinery, safety products and plumbing equipment in Addis Ababa.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:0911343612">Call 0911 343 612</a>
+          <a class="btn secondary" href="#products">Explore Products</a>
+        </div>
+        <div class="hero-badges">
+          <span>✓ Construction</span><span>✓ Welding</span><span>✓ Safety</span><span>✓ Plumbing</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="container trust-grid">
+        <div><strong>Professional supply</strong><span>Tools & equipment for demanding work</span></div>
+        <div><strong>Wide product range</strong><span>From machinery to plumbing fittings</span></div>
+        <div><strong>Visit our shop</strong><span>Mexico • Sengatera • Addis Ababa</span></div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">WHAT WE SUPPLY</span>
+          <h2>Products for the job</h2>
+          <p>Browse our main product categories. Contact us for availability, specifications and current prices.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="icon">⚙</div><h3>Machinery</h3><p>Practical machinery and equipment for construction and industrial work.</p></article>
+          <article class="card"><div class="icon">⚡</div><h3>Welding</h3><p>Welding machines, electrodes and related workshop equipment.</p></article>
+          <article class="card"><div class="icon">🦺</div><h3>Safety Products</h3><p>Protective equipment and safety supplies for worksites and workshops.</p></article>
+          <article class="card"><div class="icon">🔧</div><h3>Construction Tools</h3><p>Hand tools, power tools and useful equipment for construction jobs.</p></article>
+          <article class="card"><div class="icon">🚰</div><h3>Plumbing Equipment</h3><p>Plumbing fittings and equipment including unions, reducers and more.</p></article>
+          <article class="card"><div class="icon">🧰</div><h3>Industrial Supplies</h3><p>A broad range of workshop and industrial products for everyday work.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section dark">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">ABOUT SENBU</span>
+          <h2>Your local source for tools & equipment.</h2>
+          <p>Senbu Tech Importer serves customers looking for dependable construction materials, machinery, welding equipment, safety products and plumbing supplies.</p>
+          <p>Whether you are a contractor, technician, workshop owner or DIY customer, contact us to ask about the equipment you need.</p>
+          <a class="btn primary" href="tel:0911343612">Talk to us</a>
+        </div>
+        <div class="about-panel">
+          <div><strong>MON — SAT</strong><span>8:00 AM — 5:00 PM</span></div>
+          <div><strong>LOCATION</strong><span>Mexico, Sengatera<br/>Addis Ababa, Ethiopia</span></div>
+          <div><strong>PHONE</strong><span>0911 343 612</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">OUR SHOP</span>
+          <h2>See us in person</h2>
+          <p>Real photos from the Senbu Tech Importer shop.</p>
+        </div>
+        <div class="gallery">
+          <img src="assets/shop-1.png" alt="Senbu Tech Importer storefront" />
+          <img src="assets/shop-2.png" alt="Senbu Tech Importer storefront sign" />
+          <img src="assets/shop-3.png" alt="Senbu Tech Importer shop and products" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-box">
+        <div>
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Need a product or a quote?</h2>
+          <p>Call Senbu Tech Importer and ask about the product, brand or equipment you need.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="tel:0911343612">📞 0911 343 612</a>
+          <a class="btn secondary" href="#gallery">View Shop</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <div class="brand footer-brand"><span class="brand-mark">S⚡</span><span><strong>SENBU</strong><small>TECH IMPORTER</small></span></div>
+      <p>© <span id="year"></span> Senbu Tech Importer. All rights reserved.</p>
+      <p>Mexico • Sengatera • Addis Ababa</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('open');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
